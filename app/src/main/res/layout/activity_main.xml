@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:isScrollContainer="true"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo_2_bold"
+                android:textSize="24sp"
+                android:layout_marginHorizontal="25dp"
+                android:text="@string/set_email"
+                android:layout_marginVertical="5dp"
+                />
+
+            <EditText
+                android:id="@+id/email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:hint="@string/insert_email"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo_2_bold"
+                android:textSize="24sp"
+                android:layout_marginHorizontal="25dp"
+                android:text="@string/set_password"
+                android:layout_marginVertical="5dp"/>
+
+            <EditText
+                android:id="@+id/password_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:hint="@string/insert_password"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginVertical="5dp"/>
+
+            <Button
+                android:id="@+id/log_in_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_in"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"/>
+
+            <Button
+                android:id="@+id/sing_in_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sing_in"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

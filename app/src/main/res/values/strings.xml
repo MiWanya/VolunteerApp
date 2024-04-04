@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">VolunteerApp</string>
+
+    <string name="set_email">Введите почту</string>
+    <string name="set_password">Введите пароль</string>
+    <string name="set_name">Введите имя</string>
+    <string name="set_surname">Введите фамилия</string>
+    <string name="set_middlename">Введите отчество</string>
+    <string name="set_city">Введите город</string>
+    <string name="set_dob">Введите дату рождения</string>
+    <string name="set_sex">Введите пол</string>
+    <string name="set_phone">Введите номер телефона</string>
+
+    <string name="insert_email">Почта</string>
+    <string name="insert_password">Пароль</string>
+    <string name="insert_name">Имя</string>
+    <string name="insert_surname">Фамилия</string>
+    <string name="insert_middlename">Отчество</string>
+    <string name="insert_city">Город</string>
+    <string name="insert_dob">Дата рождения</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="insert_phone">Номер телефона</string>
+
+    <string name="log_in">Войти</string>
+    <string name="log_out">Выйти</string>
+    <string name="sing_in">Зарегистрироваться</string>
+</resources>
